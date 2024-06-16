@@ -1,5 +1,4 @@
 -- 입양을 간 기록은 있는데 보호소에 들어온 기록이 없는 동물
--- out에 join을 한다.
 
 SELECT OUTS.ANIMAL_ID, OUTS.NAME
   FROM ANIMAL_OUTS OUTS
