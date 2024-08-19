@@ -12,7 +12,7 @@ public class Main {
         int a = Integer.parseInt(st.nextToken());
         int b = Integer.parseInt(st.nextToken());
 
-        for(int x = -2000 ; x <= 2000 ; x++) {
+        for(int x = -500 ; x <= 500 ; x++) {
             if (x * x + 2 * a * x + b == 0) {
                 System.out.print(x + " ");
             }
